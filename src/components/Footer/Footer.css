@@ -1,0 +1,115 @@
+#Footer
+{
+    width: 100%;
+}
+#Footer .container
+{
+    padding: 40px 0px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+#Footer .container #Footer-main
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#Footer .container #Footer-main #Footer-sCard
+{
+    width: 25%;
+    align-items: start;
+}
+#Footer .container #Footer-main #Footer-sCard h1
+{
+    color: white;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+#Footer .container #Footer-main #Footer-sCard p
+{
+    font-size: 0.8rem;
+    color: white;
+}
+#Footer .container #Footer-main #Footer-sCard h3
+{
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+#Footer .container #Footer-main #Footer-sCard > ul li , a
+{
+    font-size: 0.9rem;
+    font-weight:normal;
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub 
+{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub input
+{
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 7px 0px;
+    background: transparent;
+    border-bottom: 2px solid #bea0879b;
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub button
+{
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 7px 7px #bea0879b;
+    border: 2px solid #bea0879b;
+    color: white;
+    background-color: transparent;
+    font-size: 0.6rem;
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub button:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 7px 7px #bea0879b;
+    background-color: #bea0879b;
+    transition: 0.7s;
+    color: white;
+    transform: scale(0.97);
+    -webkit-transform: scale(0.97);
+    -moz-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    -o-transform: scale(0.97);
+}
+
+#Footer hr
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #979092 ;
+}
+
+#Footer  #Footer-copy
+{
+    padding:30px 0px;
+    padding-left: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+#Footer  #Footer-copy h3
+{
+    color:#F8F8FF;
+    font-size: 1rem;
+}
+#Footer  #Footer-copy h3 > span
+{
+    color: #F8F8FF;
+}
+

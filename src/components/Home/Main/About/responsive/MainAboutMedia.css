@@ -1,0 +1,146 @@
+@media (max-width:480px) {
+    #About
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #About #About-Main
+    {   
+        width: 100%;
+        display: block;
+    }
+    #About #About-Main #About-Main-sCard
+    {
+        display: flex;
+        justify-content: start;
+        width: 80%;
+        margin: 10px auto;
+        justify-content: none;
+    }
+    #About #About-Main #About-Main-sCard i
+    {
+        margin-left: 40px;
+        font-size: 2rem;
+    }
+    #About #About-Main #About-Main-sCard h3
+    {
+        margin-left: 20px;
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    #About #About-Main #About-Main-sCard  p
+    {
+        margin-left: 20px;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    #About
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #About #About-Main
+    {   
+        width: 100%;
+        display: block;
+    }
+    #About #About-Main #About-Main-sCard
+    {
+        display: flex;
+        justify-content: start;
+        width: 60%;
+        margin: 10px auto;
+        justify-content: none;
+    }
+    #About #About-Main #About-Main-sCard i
+    {
+        margin-left: 40px;
+        font-size: 2rem;
+    }
+    #About #About-Main #About-Main-sCard h3
+    {
+        margin-left: 20px;
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    #About #About-Main #About-Main-sCard  p
+    {
+        text-align: start;
+        margin-left: 20px;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #About
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #About #About-Main
+    {   
+        width: 100%;
+    }
+    #About #About-Main #About-Main-sCard
+    {
+        display: flex;
+        justify-content: start;
+        width: 60%;
+        margin: 10px auto;
+        justify-content: none;
+    }
+    #About #About-Main #About-Main-sCard i
+    {
+        margin-left: 40px;
+        font-size: 2rem;
+    }
+    #About #About-Main #About-Main-sCard h3
+    {
+        margin-left: 20px;
+        font-size: 1rem;
+        text-align: start;
+    }
+    #About #About-Main #About-Main-sCard  p
+    {
+        text-align: start;
+        margin-left: 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    #About
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #About #About-Main
+    {   
+        width: 100%;
+    }
+    #About #About-Main #About-Main-sCard
+    {
+        display: flex;
+        justify-content: start;
+        width: 60%;
+        margin: 10px auto;
+        justify-content: none;
+    }
+    #About #About-Main #About-Main-sCard i
+    {
+        margin-left: 40px;
+        font-size: 2rem;
+    }
+    #About #About-Main #About-Main-sCard h3
+    {
+        margin-left: 20px;
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    #About #About-Main #About-Main-sCard  p
+    {
+        text-align: start;
+        margin-left: 20px;
+        font-size: 0.9rem;
+    }
+}

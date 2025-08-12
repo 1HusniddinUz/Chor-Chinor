@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--* BOOTSTRAP LINK START  -->
+  
+    <!--* BOOTSTRAP LINK END  -->
+
+    <!-- * JQUERY LINK START -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script>
+        jQuery(function($){
+        let $navbar = $("#Header");
+        $(window).scroll(function(event) {
+          let $current = $(this).scrollTop()
+          if ($current > 0) {
+            $navbar.addClass("navbar-color");
+          } else {
+            $navbar.removeClass("navbar-color");
+          }
+        })
+      })
+    </script>
+
+    <!-- * JQUERY LINK END -->
+
+    <!--* GOOGLE FONTS LINK START  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!--* GOOGLE FONTS LINK END  -->
+    
+    <!-- * FONT AWESOME LINK START -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- * FONT AWESOME LINK END -->
+    <title>Milliy Shirinliklar</title>
+
+
+</head>
+<body>
+    <div id="root">
+        
+    </div>
+</body>
+</html>

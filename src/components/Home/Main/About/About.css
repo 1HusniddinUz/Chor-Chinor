@@ -1,0 +1,38 @@
+#About
+{
+    padding: 60px 0px;
+    width: 100%;
+    background-color: #BEA087;
+}
+#About #About-Main
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#About #About-Main #About-Main-sCard
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 150px;  
+    padding: 20px 0px;
+}
+#About #About-Main #About-Main-sCard i
+{
+    font-size: 2.5rem;
+    color: black;
+}
+#About #About-Main #About-Main-sCard h3
+{
+    color: black;
+    font-size: 1.5rem;
+}
+#About #About-Main #About-Main-sCard p
+{
+    color: black;
+}

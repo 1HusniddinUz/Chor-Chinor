@@ -1,0 +1,74 @@
+#Furniro
+{
+  padding: 40px 0px;
+  background-color: #BEA087;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+#Furniro #Furniro-Title
+{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  justify-content: center;
+  z-index: 1;
+  opacity: 1;
+  position: absolute;
+}
+#Furniro #Furniro-Title h1
+{
+  color: black;;
+  font-size: 3.1rem;
+}
+#Furniro #Furniro-Title h3
+{
+  /* color: rgba(45, 186, 233, 0.544); */
+  color: rgba(0, 0, 0, 0.515);
+  font-size: 1.2rem;
+}
+  #photos {
+    width: 100%;
+    opacity: 0.3;
+    z-index: 0;
+    margin-top: 50px;
+    line-height: 0;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 4;
+    -moz-column-gap: 10px;
+    column-count: 4;
+    column-gap: 10px;
+  }
+  
+  #photos img {
+    width: 100%;
+    height: auto ;
+    margin-bottom: 10px;
+  }
+  #photos img:nth-child(5)
+  {
+    margin-top: 20px;
+  }
+    #photos img:nth-child(1)
+  {
+    margin-top: 5px;
+  }  
+  @media (max-width: 1200px) {
+    #photos {
+      column-count: 3;
+    }
+  }
+  
+  @media (max-width: 980px) {
+    #photos {
+      column-count: 2;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    #photos {
+      column-count: 1;
+    }
+  }  
