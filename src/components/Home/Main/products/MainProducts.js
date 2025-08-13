@@ -1,196 +1,79 @@
 import React, { useState } from "react";
 import "./MainProducts.css";
 import "./responsive/MainProductMedia.css"
+import img1 from "./img/img1.png"
+import img2 from "./img/dining.png"
+import img3 from "./img/image 2.png"
+import img4 from "./img/image 3 (2).png"
+import img5 from "./img/image 4.png"
+import img6 from "./img/image 5.png"
+import img7 from "./img/image 7.png"
+import img8 from "./img/image 8.png"
+
+
+
 
 const Products = [
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img1,
     ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
+    ProductName: "Mebel nomi",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
   },
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img2 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
+    ProductName: "Mebel nomi 2",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
   },
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img3 ,
     ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
+    ProductName: "Mebel nomi",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
   },
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img4 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
+    ProductName: "Mebel nomi 2",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
   },
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img5 ,
     ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
+    ProductName: "Mebel nomi",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
   },
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img6 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
+    ProductName: "Mebel nomi 2",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
   },
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img7 ,
     ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
+    ProductName: "Mebel nomi",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
   },
   {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
+    ProductImg: img8 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-30%",
-    ProductName: "Shirinlik nomi",
-    ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
-  },
-  {
-    ProductImg: "https://i.ibb.co/xfNRgmQ/",
-    ProductSaleBtn: "-40%",
-    ProductName: "Shirinlik nomi 2",
+    ProductName: "Mebel nomi 2",
     ProductTitle: "///",
     ProductPrice: "Narxi sum/$",
     ProductSale: "Oldingi narxi sum/$",
@@ -221,10 +104,10 @@ const MainProducts = () => {
               key={index}
               id="MainProducts-sBox">
               {/* Mahsulot kodlari o'zgartirilmagan */}
-              <img src={item.ProductImg} alt="" />
-              <button>{item.ProductSaleBtn}</button>
-              {/*<h3>{item.ProductName}</h3>*/}
-              <p>{item.ProductTitle}</p>
+              <img src={item.ProductImg} alt="Modern Furniture  " />
+              {/*<button>{item.ProductSaleBtn}</button>*/}
+              <h3>{item.ProductName}</h3>
+              {/*<p>{item.ProductTitle}</p>*/}
               <div id="Product-price">
                 <h4>{item.ProductPrice}</h4>
                 <strike>{item.ProductSale}</strike>

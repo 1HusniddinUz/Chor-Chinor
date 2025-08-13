@@ -1,35 +1,44 @@
-import React from 'react'
-import "./Header.css"
-import "./responsive/HeaderMedia.css"
+import React, { useState } from 'react';
+import "./Header.css";
 
 const Header = () => {
-  return (
-    <div id='Header'>
-      <div className="container">
-        <div id="Header-logo">
-            <h1><a href="#Home-Header">CHOR-CHINOR</a></h1>
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    return (
+        <div id='Header' className={menuOpen ? 'menu-open' : ''}>
+            <div className="container">
+                {/* Logo */}
+                <div id="Header-logo">
+                    <h1><a href="/">CHOR-CHINOR</a></h1>
+                </div>
+
+                {/* Navigation */}
+                <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
+                    <li><a href="#Home-Header">Bosh Sahifa</a></li>
+                    <li><a href="#MainProducts">Katalog</a></li>
+                    <li><a href="#Furniro">Biz haqimizda</a></li>
+                </ul>
+
+                {/* Contact */}
+                <div id="Header-contact">
+                    <p>
+                        Bog'lanish uchun: <br />
+                        <a href="tel:998918208446">+998 91 820-84-46</a>
+                    </p>
+                </div>
+
+                {/* Burger Button */}
+                <div
+                    className={`burger ${menuOpen ? 'toggle' : ''}`}
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
-        <ul>
-            <button><a href="#Home-Header" >Bosh Sahifa</a></button>
+    );
+};
 
-
-            <button> <a href="#HeaderShop">Katalog</a></button>
-
-
-            <button> <a href="#Furniro" >Biz haqimizda </a></button>
-
-            <button><a href="#Contact">Call Center </a></button>
-        </ul>
-          {/* <i onClick={()=>{
-            let Burger = document.querySelector(".fa-burger")
-            let HeaderNavigation = document.querySelector("#Header-navigation"); 
-            HeaderNavigation.style="display:block ; "
-            Burger.style="display:none"
-           }} className='fa-solid fa-burger'></i> */}
-        <div id="Header-navigation"></div>
-      </div>
-    </div>
-  )
-}
-
-export default Header
+export default Header;

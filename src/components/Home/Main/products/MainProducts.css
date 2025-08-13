@@ -16,11 +16,12 @@
     width: 95%;
     text-align: center;
     margin: 0 auto;
+    padding: 20px 0px;
 }
 #MainProducts .container h1
 {
     color: black;
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 0px;
 }
 #MainProducts .container #MainProducts-card
 {
@@ -117,27 +118,28 @@
 #MainProducts .container #MainProducts-card #MainProducts-sBox img
 {
     width: 100%;
+    height: 75%;
     cursor: pointer;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#MainProducts .container #MainProducts-card #MainProducts-sBox > button
-{
-    color: white;
-    background-color: #2EC1AC;
-    position: absolute;
-    cursor: pointer;
-    border-radius: 50%;
-    border: 1px solid transparent;
-    top: 20px;
-    width: 50px;
-    height: 50px;
-    right: 20px;
-}
+/*#MainProducts .container #MainProducts-card #MainProducts-sBox > button*/
+/*{*/
+/*    color: white;*/
+/*    background-color: #2EC1AC;*/
+/*    position: absolute;*/
+/*    cursor: pointer;*/
+/*    border-radius: 50%;*/
+/*    border: 1px solid transparent;*/
+/*    top: 20px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    right: 20px;*/
+/*}*/
 #MainProducts .container #MainProducts-card #MainProducts-sBox > h3
 {
     margin-top: 10px;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 1.3rem;
 }
 #MainProducts .container #MainProducts-card #MainProducts-sBox p
@@ -152,7 +154,7 @@
     padding-top: 5px;
     align-items: center;
     display: flex;
-    align-items: center;
+    align-content: center;
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;

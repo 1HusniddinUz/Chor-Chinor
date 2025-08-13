@@ -193,6 +193,8 @@ function ProductsInOne() {
           ProductTitle: "///",
           ProductPrice: "Narxi sum/$",
           ProductSale: "Oldingi narxi sum/$",
+
+
         },
         // Boshqa mahsulotlar...
       ];
