@@ -23,7 +23,7 @@ const Header = () => {
                 <div id="Header-contact">
                     <p>
                         Bog'lanish uchun: <br />
-                        <a href="tel:998918208446">+998 91 820-84-46</a>
+                        <a href="tel:998978668877" target="_blank" rel="noopener norefeffer" > 📞 +998 97 866-88-77</a>
                     </p>
                 </div>
 

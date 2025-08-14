@@ -14,9 +14,9 @@ const Footer = () => {
           <div id="Footer-sCard">
                 <h2>Ijtimoiy tarmoqlarimiz : </h2>
               <div id="footer_social_links">
-                  <a href="https://t.me/xusni_axi"><i className="fa-brands fa-telegram"></i></a>
-                  <a href="https://www.instagram.com/chor_chinor_mebel"><i className="fa-brands fa-instagram"></i></a>
-                  <a href="https://t.me/xusni_axi"><i className="fa-brands fa-youtube"></i></a>
+                  <a href="https://t.me/Dveri_Okna_Mebel_Na_Zakaz" target="_blank" rel="noopener norefeffer"><i className="fa-brands fa-telegram"></i></a>
+                  <a href="https://www.instagram.com/chor_chinor_mebel" target="_blank" rel="noopener norefeffer"><i className="fa-brands fa-instagram"></i></a>
+                  <a href="https://t.me/buxoro_tadbirkorlar_klubi" target="_blank" rel="noopener norefeffer"><i className="fa-brands fa-youtube"></i></a>
               </div>
           </div>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 <h2>Joylashuvimiz :</h2>
                 <iframe
                     title="map"
-                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6130.114642563849!2d64.253006!3d39.805706!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQ4JzIwLjUiTiA2NMKwMTUnMTAuOCJF!5e0!3m2!1sru!2s!4v1747136757081!5m2!1sru!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6130.2524806567835!2d64.518187!3d39.80416!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQ4JzE1LjAiTiA2NMKwMzEnMDUuNSJF!5e0!3m2!1sru!2s!4v1755185905231!5m2!1sru!2s"
                     width="100%"
                     height="450"
                     style={{
@@ -43,7 +43,7 @@ const Footer = () => {
         <hr/>
 
         <div id="Footer-copy">
-            <h3>© Разработка || 2025 <span/>Hohishingizga qarab <span/></h3>
+            <h3><a href="https://t.me/xusni_axi">2025 © Barcha huquqlar himoyalangan.</a></h3>
         </div>
 
     </div>
