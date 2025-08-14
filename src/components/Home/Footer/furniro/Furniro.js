@@ -8,9 +8,9 @@ const Furniro = () => {
           <h3>
           Siz bilan baham ko'rdik
           </h3>
-          <h1>
-          #KorxonaNomi
-          </h1>
+          <h2>
+          Zamonaviy hashamamatli mebellar
+          </h2>
       </div>
       <section id="photos">
         <img alt='img' src="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
