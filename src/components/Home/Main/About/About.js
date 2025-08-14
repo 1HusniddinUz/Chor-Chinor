@@ -45,7 +45,7 @@ const About = () => {
            <i class="fa-solid fa-handshake"></i>
             <div id="About-Main-sRCard">
                 <h3>Yetkazib berish bepul</h3>
-                <p>150 $ dan ortiq buyurtma bering</p>
+                <p>Barchasi sizning foydangizga</p>
             </div>
            </div>
            <div id="About-Main-sCard">

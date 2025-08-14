@@ -43,7 +43,7 @@ const Footer = () => {
         <hr/>
 
         <div id="Footer-copy">
-            <h3><a href="https://t.me/xusni_axi">2025 © Barcha huquqlar himoyalangan.</a></h3>
+            <h3><a href="https://t.me/xusni_axi"  target="_blank" rel="noopener norefeffer">2025 © Barcha huquqlar himoyalangan.</a></h3>
         </div>
 
     </div>
