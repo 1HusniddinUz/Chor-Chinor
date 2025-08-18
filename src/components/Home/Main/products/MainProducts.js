@@ -1,86 +1,83 @@
 import React, { useState } from "react";
 import "./MainProducts.css";
 import "./responsive/MainProductMedia.css"
-import img1 from "./img/img1.png"
-import img2 from "./img/dining.png"
-import img3 from "./img/image 2.png"
-import img4 from "./img/image 3 (2).png"
-import img5 from "./img/image 4.png"
-import img6 from "./img/image 5.png"
-import img7 from "./img/image 7.png"
-import img8 from "./img/image 8.png"
-
-
+import img1 from "./img/1.jpg"
+import img2 from "./img/6.jpg"
+import img3 from "./img/23.jpg"
+import img4 from "./img/2.jpg"
+import img5 from "./img/5.jpg"
+import img6 from "./img/12.jpg"
+import img7 from "./img/8.jpg"
+import img8 from "./img/14.jpg"
 
 
 const Products = [
   {
     ProductImg: img1,
     ProductSaleBtn: "-30%",
-    ProductName: "Mebel nomi",
+    ProductName: "PORTA 37 VERALINGA",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "205$",
+    ProductSale: "225$",
   },
   {
     ProductImg: img2 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Mebel nomi 2",
+    ProductName: "Mebel majmuasi",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "120$",
+    ProductSale: "130$",
   },
   {
     ProductImg: img3 ,
     ProductSaleBtn: "-30%",
-    ProductName: "Mebel nomi",
+    ProductName: "AKRIL 2 MODERN OQ VA QORA",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "450$",
+    ProductSale: "500$",
   },
   {
     ProductImg: img4 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Mebel nomi 2",
+    ProductName: "ALFA DUMONT 2 BROWN",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "380$",
+    ProductSale: "400$",
   },
   {
     ProductImg: img5 ,
     ProductSaleBtn: "-30%",
-    ProductName: "Mebel nomi",
+    ProductName: "Mebel majmuasi",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "80$",
+    ProductSale: "95$",
   },
   {
     ProductImg: img6 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Mebel nomi 2",
+    ProductName: "CLASSIC 23 VIRGIN MAGIC FOG FACET",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "170$",
+    ProductSale: "200$",
   },
   {
     ProductImg: img7 ,
     ProductSaleBtn: "-30%",
-    ProductName: "Mebel nomi",
+    ProductName: "AKRIL MODERN EDITION",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "460$",
+    ProductSale: "490$",
   },
   {
     ProductImg: img8 ,
     ProductSaleBtn: "-40%",
-    ProductName: "Mebel nomi 2",
+    ProductName: "PORTA 29 VERALINGA",
     ProductTitle: "///",
-    ProductPrice: "Narxi sum/$",
-    ProductSale: "Oldingi narxi sum/$",
+    ProductPrice: "160$",
+    ProductSale: "170$",
   },
-  // Boshqa mahsulotlar...
-];
 
+];
 const MainProducts = () => {
   const [visibleCards, setVisibleCards] = useState(8); // Dastlabki ko'rinadigan mahsulotlar soni
 
@@ -103,20 +100,13 @@ const MainProducts = () => {
             <div
               key={index}
               id="MainProducts-sBox">
-              {/* Mahsulot kodlari o'zgartirilmagan */}
               <img src={item.ProductImg} alt="Modern Furniture  " />
-              {/*<button>{item.ProductSaleBtn}</button>*/}
               <h3>{item.ProductName}</h3>
-              {/*<p>{item.ProductTitle}</p>*/}
               <div id="Product-price">
                 <h4>{item.ProductPrice}</h4>
                 <strike>{item.ProductSale}</strike>
               </div>
 
-              {/* Modalni yopish uchun element */}
-              {/*<div id="MainProducts-bgBox">*/}
-              {/*  <button id="MainProducts-bgBox-btn">Add to card</button>*/}
-              {/*</div>*/}
             </div>
           ))}
         </div>

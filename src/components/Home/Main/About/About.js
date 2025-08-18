@@ -2,28 +2,7 @@ import React from 'react'
 import "./About.css"
 import "./responsive/MainAboutMedia.css"
 const About = () => {
-    // let AboutInfo = [
-    //     {
-    //         AboutLogo: '<i class="fa-solid fa-trophy"></i>',
-    //         AboutTitle: "High Quality",
-    //         AboutDescription: "crafted from top materials"
-    //     },
-    //     {
-    //         AboutLogo: `<i class="fa-regular fa-badge-check"></i>`,
-    //         AboutTitle: "Warranty Protection",
-    //         AboutDescription: "Over 2 years"
-    //     },
-    //     {
-    //         AboutLogo: `<i class="fa-solid fa-hand-holding-box"></i>`,
-    //         AboutTitle: "Free Shipping",
-    //         AboutDescription: "Order over 150 $"
-    //     },
-    //     {
-    //         AboutLogo: `<i class="fa-regular fa-user-headset"></i>`,
-    //         AboutTitle: "24 / 7 Support",
-    //         AboutDescription: "Dedicated support"
-    //     },
-    // ]
+
   return (
     <div id='About'>
         <div id="About-Main">

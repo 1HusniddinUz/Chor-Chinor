@@ -167,7 +167,8 @@
 #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price strike
 {
     padding-left: 20px;
-    color: #979595;
+    color: #626161;
+    font-weight: 500;
     font-size: 0.8rem;
 }
 #MainProducts .container #MainProducts_btn
