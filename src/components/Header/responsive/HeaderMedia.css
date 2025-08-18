@@ -23,7 +23,7 @@
         width: 90%;
         padding: 0;
         margin: 0 auto;
-        display: flex;        
+        display: flex;
         align-items: center;
     }
     #Header .container #Header-logo
@@ -36,7 +36,7 @@
 
     }
     /* #Header .container #Header-logo img
-    {   
+    {
         width: 25px;
         height: 15px;
     } */
@@ -51,7 +51,7 @@
     {
         font-size: 0.7rem;
     }
-    #Header .container ul 
+    #Header .container ul
     {
         display: flex;
         align-items: center;
@@ -94,7 +94,7 @@
         padding: 0;
         margin: 0;
         gap: 0;
-    } 
+    }
     #Header .container #Header-navigation i
     {
         margin: 0;
@@ -102,7 +102,7 @@
         font-size: 5px;
     }
     /* #Header .container .fa-burger
-    {   
+    {
         display: block;
         color: rgba(45, 186, 233, 0.4);
     } */
@@ -127,7 +127,7 @@
         width: 90%;
         padding: 0;
         margin: 0 auto;
-        display: flex;        
+        display: flex;
         align-items: center;
     }
     #Header .container #Header-logo
@@ -140,7 +140,7 @@
 
     }
     /* #Header .container #Header-logo img
-    {   
+    {
         width: 25px;
         height: 15px;
     } */
@@ -155,7 +155,7 @@
     {
         font-size: 0.8rem;
     }
-    #Header .container ul 
+    #Header .container ul
     {
         display: flex;
         align-items: center;
@@ -198,7 +198,7 @@
         padding: 0;
         margin: 0;
         gap: 0;
-    } 
+    }
     #Header .container #Header-navigation i
     {
         margin: 0;
@@ -226,7 +226,7 @@
         width: 90%;
         padding: 0;
         margin: 0 auto;
-        display: flex;        
+        display: flex;
         align-items: center;
     }
     #Header .container #Header-logo
@@ -239,7 +239,7 @@
 
     }
     /* #Header .container #Header-logo img
-    {   
+    {
         width: 25px;
         height: 15px;
     } */
@@ -254,7 +254,7 @@
     {
         font-size: 1.1rem;
     }
-    #Header .container ul 
+    #Header .container ul
     {
         display: flex;
         align-items: center;
@@ -297,7 +297,7 @@
         padding: 0;
         margin: 0;
         gap: 0;
-    } 
+    }
     #Header .container #Header-navigation i
     {
         margin: 0;
@@ -325,7 +325,7 @@
         width: 90%;
         padding: 0;
         margin: 0 auto;
-        display: flex;        
+        display: flex;
         align-items: center;
     }
     #Header .container #Header-logo
@@ -338,7 +338,7 @@
 
     }
     /* #Header .container #Header-logo img
-    {   
+    {
         width: 25px;
         height: 15px;
     } */
@@ -353,7 +353,7 @@
     {
         font-size: 1.3rem;
     }
-    #Header .container ul 
+    #Header .container ul
     {
         display: flex;
         align-items: center;
@@ -396,7 +396,7 @@
         padding: 0;
         margin: 0;
         gap: 0;
-    } 
+    }
     #Header .container #Header-navigation i
     {
         margin: 0;
@@ -437,7 +437,7 @@
 
     }
     /* #Header .container #Header-logo img
-    {   
+    {
         width: 25px;
         height: 15px;
     } */
@@ -453,7 +453,7 @@
         font-size: 1.7rem;
         color: white;
     }
-    #Header .container ul 
+    #Header .container ul
     {
         display: flex;
         align-items: center;
@@ -498,7 +498,7 @@
         padding: 0;
         margin: 0;
         gap: 0;
-    } 
+    }
     #Header .container #Header-navigation i
     {
         color:white;

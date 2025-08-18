@@ -1,264 +1,185 @@
-*
-{
+/* -------------------
+   GLOBAL SETTINGS
+------------------- */
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-#MainProducts
-{
-    padding:20px 0px;
-    background-color: #fffffff3;
+
+/* Mahsulotlar bo‘limi */
+#MainProducts {
+    padding: 40px 0px;
+    background-color: #fafafa;
     width: 100%;
-    padding-bottom: 40px;
 }
-#MainProducts .container
-{
+
+/* Container */
+#MainProducts .container {
     width: 95%;
-    text-align: center;
     margin: 0 auto;
-    padding: 20px 0px;
 }
-#MainProducts .container h1
-{
-    color: black;
-    margin: 0px 0px 20px 0px;
-}
-#MainProducts .container #MainProducts-card
-{
-    text-align: start;
-    width: 80%;
+
+/* Sarlavha va Savatcha */
+.products-header {
+    display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.products-header h1 {
+    font-size: 1.8rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Savatcha */
+.cart-info {
+    position: relative;
+    cursor: pointer;
+    color: #333;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #bea087;
+    color: white;
+    font-size: 0.75rem;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+/* -------------------
+   PRODUCT CARDS
+------------------- */
+#MainProducts-card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
-#MainProducts .container #MainProducts-card #MainProducts-sBox
-{
-    opacity: 1;
+
+#MainProducts-sBox {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
     position: relative;
-    z-index: 0;
-    -webkit-transition-property: opacity;
-    transition-property: opacity;
-    -webkit-transition-duration: 0.125s;
-    transition-duration: 0.125s;
-    -webkit-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
-    background-color: #F4F5F7;
-    margin-bottom: 30px;
-    position: relative;
-    height: 450px;
     width: 22%;
+    min-width: 240px;
+    height: 420px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
 }
 
+#MainProducts-sBox:hover {
+    transform: scale(1.03);
+}
 
+/* Chegirma badge */
+.discount-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #e63946;
+    color: white;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
 
-/* ! */
-#MainProducts-controls 
-{
+/* Rasm */
+#MainProducts-sBox img {
     width: 100%;
+    height: 65%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Mahsulot nomi */
+#MainProducts-sBox h3 {
+    font-size: 1.1rem;
+    margin: 8px 12px 0;
+    color: #222;
+    flex-grow: 1;
+}
+
+/* Narx */
+#Product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 12px;
+}
+
+#Product-price h4 {
+    color: #333;
+    font-weight: 600;
+}
+
+#Product-price strike {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* -------------------
+   ADD TO CART BUTTON
+------------------- */
+.add-to-cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 90%;
+    margin: 10px auto 15px;
+    padding: 10px 0;
+    background-color: #bea087;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #a87a4f;
+    transform: translateY(-2px);
+}
+
+/* -------------------
+   CONTROL BUTTONS
+------------------- */
+#MainProducts-controls {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
+
 #MainProducts_btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: white;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-}
-  
-  #MainProducts_btn:hover {
-    background-color: white;
-  }
-  
-  .MainProducts-sBox {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    text-align: center;
-    transition: transform 0.2s;
-  }
-  
-  .MainProducts-sBox:hover {
-    transform: scale(1.05);
-  }
-
-
-/* ! */
-#MainProducts .container #MainProducts-card #MainProducts-sBox
-{
-    background-color: #bea087b7;
-    margin-bottom: 30px;
-    position: relative;
-    height: 450px;
-    width: 22%;
-}
-#MainProducts .container #MainProducts-card #MainProducts-sBox:hover
-{
-    transform: scale(0.98);
-    transition: 0.7s ease-in-out;
-    /*box-shadow: 5px 5px #BEA087, 10px 10px #bea087a1,    15px 15px #bea0878a, 20px 20px #bea087b4,    25px 25px #bea08742;
-    -moz-transition: 0.7s ease-in-out;
-    -ms-transition: 0.7s ease-in-out;
-    -o-transition: 0.7s ease-in-out;
-    */-webkit-transition: 0.7s ease-in-out;
-    -webkit-transform: scale(0.98);
-    -moz-transform: scale(0.98);
-    -ms-transform: scale(0.98);
-    -o-transform: scale(0.98);
-}
-#MainProducts .container #MainProducts-card #MainProducts-sBox img
-{
-    width: 100%;
-    height: 75%;
-    cursor: pointer;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/*#MainProducts .container #MainProducts-card #MainProducts-sBox > button*/
-/*{*/
-/*    color: white;*/
-/*    background-color: #2EC1AC;*/
-/*    position: absolute;*/
-/*    cursor: pointer;*/
-/*    border-radius: 50%;*/
-/*    border: 1px solid transparent;*/
-/*    top: 20px;*/
-/*    width: 50px;*/
-/*    height: 50px;*/
-/*    right: 20px;*/
-/*}*/
-#MainProducts .container #MainProducts-card #MainProducts-sBox > h3
-{
-    margin-top: 10px;
-    padding-left: 15px;
-    font-size: 1.3rem;
-}
-#MainProducts .container #MainProducts-card #MainProducts-sBox p
-{
-    margin-top: 5px;
-    padding-left: 20px;
-    color: #898989;
-    font-size: 0.9rem;
-}
-#MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price
-{
-    padding-top: 5px;
-    align-items: center;
-    display: flex;
-    align-content: center;
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-#MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price h4
-{
-    font-size: 1rem;
-}
-#MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price strike
-{
-    padding-left: 20px;
-    color: #626161;
-    font-weight: 500;
-    font-size: 0.8rem;
-}
-#MainProducts .container #MainProducts_btn
-{
-    margin-top: 20px;
-    width: 300px;
-    height: 60px;
-    background-color: #BEA087;
-    color: white; 
-    box-shadow: 0px 0px 7px 7px #bea087b7;
-    font-size: 1.1rem;
-
-}
-#MainProducts .container #MainProducts_btn:hover
-{
-    cursor: pointer;
-    color: #BEA087;
-    transform: scale(0.97);
-    transition: 0.3s ease-in-out;
-    border: 2px solid #bea087b7;
-    background-color:transparent    ;
-    box-shadow: 0px 0px 5px 5px #bea087b7    ;
-    transition: 0.5s ease-in;
-    -moz-transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    -webkit-transform: scale(0.97);
-    -moz-transform: scale(0.97);
-    -ms-transform: scale(0.97);
-    -o-transform: scale(0.97);
-    -webkit-transition: 0.3s ease-in-out;
-}
-#MainProducts .container #MainProducts-card #MainProducts-bgBox
-{
-    display: none;
-    margin-top: -448px;
-    z-index: 1;
-    opacity: 0.7;
-    position: absolute;
-    background-color: #333;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding-top: 50%;
-}
-#MainProducts .container #MainProducts-card #MainProducts-bgBox #MainProducts-bgBox-btn
-{   
-    width: 200px;
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.645);
-    border: 2px solid white;
-    color: black ; 
-    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.645) ;
-}
-#MainProducts .container #MainProducts-card #MainProducts-bgBox #MainProducts-bgBox-btn:hover
-{
-    cursor: pointer;
+    width: 250px;
+    height: 55px;
+    background-color: #bea087;
     color: white;
-    background-color:transparent;
-    box-shadow: 0px 0px 4px 4px #bea087c1;
-    transition: 0.7s ; 
-}
-#MainProducts .container #MainProducts-card #MainProducts-bgBox #MainProducts-bgBox-notfBox
-{
-    width: 80%;
-    gap: 10px;
-    display: flex;
-    margin: 20px auto;
-    margin-top: 20px;
-    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px rgba(190, 160, 135, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-#MainProducts .container #MainProducts-card #MainProducts-bgBox #MainProducts-bgBox-notfBox #MainProducts-notfSBox
-{
-    width: 120px;
-    align-items: center;
-    display: flex;
+#MainProducts_btn:hover {
+    background-color: transparent;
+    color: #bea087;
+    border: 2px solid #bea087;
+    transform: scale(0.97);
 }
-#MainProducts .container #MainProducts-card #MainProducts-bgBox #MainProducts-bgBox-notfBox #MainProducts-notfSBox i
-{
-    padding: 0;
-    margin: 0;
-    font-size: 1.1rem;
-    color: rgba(45, 186, 233, 0.843);
-}
-#MainProducts .container #MainProducts-card #MainProducts-bgBox #MainProducts-bgBox-notfBox #MainProducts-notfSBox p
-{
-    margin: 0px 0px 0px -10px;
-    color: rgba(45, 186, 233, 0.843);
-    font-size: 0.8rem;
-    font-weight: 400;
-}
-
