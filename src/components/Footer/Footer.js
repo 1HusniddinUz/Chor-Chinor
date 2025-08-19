@@ -16,7 +16,6 @@ const Footer = () => {
               <div id="footer_social_links">
                   <a href="https://t.me/Dveri_Okna_Mebel_Na_Zakaz" target="_blank" rel="noopener norefeffer"><i className="fa-brands fa-telegram"></i></a>
                   <a href="https://www.instagram.com/chor_chinor_mebel" target="_blank" rel="noopener norefeffer"><i className="fa-brands fa-instagram"></i></a>
-                  <a href="https://t.me/buxoro_tadbirkorlar_klubi" target="_blank" rel="noopener norefeffer"><i className="fa-brands fa-youtube"></i></a>
               </div>
           </div>
 
@@ -43,7 +42,9 @@ const Footer = () => {
         <hr/>
 
         <div id="Footer-copy">
-            <h3><a href="https://t.me/xusni_axi"  target="_blank" rel="noopener norefeffer">2025 © Barcha huquqlar himoyalangan.</a></h3>
+            <h3>2025 © Barcha huquqlar himoyalangan.</h3>
+            <h3><a href="https://t.me/buxoro_tadbirkorlar_klubi"  target="_blank" rel="noopener norefeffer">Directed by : BUXORO TADBIRKORLAR KLUBI</a></h3>
+
         </div>
 
     </div>
