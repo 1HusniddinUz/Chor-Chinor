@@ -25,7 +25,7 @@ const Footer = () => {
                     title="map"
                     src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6130.2524806567835!2d64.518187!3d39.80416!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQ4JzE1LjAiTiA2NMKwMzEnMDUuNSJF!5e0!3m2!1sru!2s!4v1755185905231!5m2!1sru!2s"
                     width="100%"
-                    height="450"
+                    height="280"
                     style={{
                         border: "none",
                         borderRadius: "10px",
