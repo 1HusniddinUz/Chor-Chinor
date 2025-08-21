@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Header/Header.css"
-import videoBg from "../Header/videoBg.mp4"
 import "./responsive/HomeHeaderMedia.css"
 const Header = () => {
   return (
@@ -8,7 +7,6 @@ const Header = () => {
         {/* ? HOME HEADER TOP PART START */}
         <div id="Home-Header-top">
             <div id="Home-Header-top-overlay"></div>
-          {/*<video src={videoBg} id="background-video" autoPlay loop muted></video>*/}
         </div>
     </div>
   )
