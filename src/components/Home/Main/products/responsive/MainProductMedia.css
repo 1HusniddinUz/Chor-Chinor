@@ -1,0 +1,312 @@
+@media (max-width:480px){
+    #MainProducts
+    {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #MainProducts .container
+    {
+        width: 90%;
+    }
+    #MainProducts .container h1
+    {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+    #MainProducts .container #MainProducts-card
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox
+    {
+        margin: 20px auto;
+        width: 45%;
+        height: 280px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox img
+    {
+        width: 100%;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > button
+    {
+        right: 10px;
+        top: 10px;
+        font-size: 0.6rem;
+        width: 40px;
+        height: 40px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > h3
+    {
+        padding-left: 10px;
+        font-size: 0.9rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox p
+    {
+        margin-top: 0px;
+        padding-left: 10px;
+        color: #898989;
+        font-size: 0.6rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price
+    {
+        padding-top: 0px;
+        display: flex;
+        align-items: center;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price h4
+    {
+        font-size: 0.7rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price strike
+    {
+        padding-left: 0px;
+        color: #979595;
+        font-size: 0.6rem;
+    }
+    #MainProducts .container #MainProducts_btn
+    {
+        margin-top: 0px;
+        width: 200px;
+        height: 40px;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:768px){
+    #MainProducts
+    {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #MainProducts .container
+    {
+        width: 90%;
+    }
+    #MainProducts .container h1
+    {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+    #MainProducts .container #MainProducts-card
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox
+    {
+        padding: 0px 0px 10px 0px;
+        margin: 20px auto;
+        width: 40%;
+        height: 40%;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox img
+    {
+        width: 100%;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > button
+    {
+        right: 10px;
+        top: 10px;
+        font-size: 0.6rem;
+        width: 40px;
+        height: 40px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > h3
+    {
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox p
+    {
+        margin-top: 0px;
+        padding-left: 10px;
+        color: #898989;
+        font-size: 0.7rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price
+    {
+        padding-top: 0px;
+        display: flex;
+        align-items: center;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price h4
+    {
+        padding: 0;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price strike
+    {
+        padding-left: 0px;
+        color: #979595;
+        font-size: 0.7rem;
+    }
+    #MainProducts .container #MainProducts_btn
+    {
+        margin-top: 0px;
+        width: 200px;
+        height: 40px;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+    #MainProducts
+    {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #MainProducts .container
+    {
+        width: 90%;
+    }
+    #MainProducts .container h1
+    {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+    #MainProducts .container #MainProducts-card
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox
+    {
+        padding: 0px 0px 10px 0px;
+        margin: 20px auto;
+        width: 30%;
+        height: 40%;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox img
+    {
+        width: 100%;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > button
+    {
+        right: 15px;
+        top: 15px;
+        font-size: 0.7rem;
+        width: 50px;
+        height: 50px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > h3
+    {
+        padding-left: 10px;
+        font-size: 1.2rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox p
+    {
+        margin-top: 0px;
+        padding-left: 10px;
+        color: #898989;
+        font-size: 0.8rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price
+    {
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price h4
+    {
+        padding: 0;
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price strike
+    {
+        padding-left: 0px;
+        color: #979595;
+        font-size: 0.8rem;
+    }
+    #MainProducts .container #MainProducts_btn
+    {
+        margin-top: 0px;
+        width: 200px;
+        height: 40px;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1440px){
+    #MainProducts
+    {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #MainProducts .container
+    {
+        width: 90%;
+    }
+    #MainProducts .container h1
+    {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+    #MainProducts .container #MainProducts-card
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox
+    {
+        padding: 0px 0px 10px 0px;
+        margin: 20px auto;
+        width: 23%;
+        height: 40%;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox img
+    {
+        width: 100%;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > button
+    {
+        right: 15px;
+        top: 15px;
+        font-size: 0.7rem;
+        width: 50px;
+        height: 50px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox > h3
+    {
+        padding-left: 10px;
+        font-size: 1.2rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox p
+    {
+        margin-top: 0px;
+        padding-left: 10px;
+        color: #898989;
+        font-size: 0.8rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price
+    {
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price h4
+    {
+        padding: 0;
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox #Product-price strike
+    {
+        padding-left: 0px;
+        color: #979595;
+        font-size: 0.8rem;
+    }
+    #MainProducts .container #MainProducts_btn
+    {
+        margin-top: 0px;
+        width: 300px;
+        height: 50px;
+        font-size: 0.9rem;
+    }
+}

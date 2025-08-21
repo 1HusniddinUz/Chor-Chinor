@@ -1,0 +1,186 @@
+@media (max-width:480px)  
+{
+    #Home-Main
+    {
+        box-sizing: border-box;
+    }
+    #Home-Main #Home-Main-top
+    {
+        padding: 20px 0px;
+    }
+    #Home-Main #Home-Main-top h1
+    {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        color: white;
+    }
+    #Home-Main #Home-Main-top p
+    {
+        font-size: 0.8rem;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card
+    {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox
+    {
+        margin: 40px auto;
+        padding: 0;
+        height: 20vh;
+        width: 40%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox img
+    {
+        width: 100%;            
+        height: 100%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox h3
+    {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:481px ) and (max-width:768px)  
+{
+    #Home-Main
+    {
+        box-sizing: border-box;
+    }
+    #Home-Main #Home-Main-top
+    {
+        padding: 20px 0px;
+    }
+    #Home-Main #Home-Main-top h1
+    {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        color: white;
+    }
+    #Home-Main #Home-Main-top p
+    {
+        font-size: 0.8rem;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card
+    {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox
+    {
+        margin: 20px auto;
+        padding: 0;
+        height: 25vh;
+        width: 30%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox img
+    {
+        width: 100%;            
+        height: 100%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox h3
+    {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:769px ) and (max-width: 1024px)  
+{
+    #Home-Main
+    {
+        box-sizing: border-box;
+    }
+    #Home-Main #Home-Main-top
+    {
+        padding: 20px 0px;
+    }
+    #Home-Main #Home-Main-top h1
+    {
+        font-size: 1.4rem;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        color: white;
+    }
+    #Home-Main #Home-Main-top p
+    {
+        font-size: 0.9rem;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card
+    {
+        text-align: center;
+        padding: 0;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox
+    {
+        margin: 20px auto;
+        padding: 0;
+        height: 30vh;
+        width: 30%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox img
+    {
+        width: 100%;            
+        height: 100%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox h3
+    {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width:1025px ) and (max-width: 1440px)  
+{
+    #Home-Main
+    {
+        box-sizing: border-box;
+    }
+    #Home-Main #Home-Main-top
+    {
+        padding: 20px 0px;
+    }
+    #Home-Main #Home-Main-top h1
+    {
+        font-size: 1.6rem;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        color: white;
+    }
+    #Home-Main #Home-Main-top p
+    {
+        font-size: 1rem;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card
+    {
+        text-align: center;
+        padding: 0;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox
+    {
+        margin: 40px auto;
+        padding: 0;
+        height: 35vh;
+        width: 30%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox img
+    {
+        width: 100%;            
+        height: 100%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox h3
+    {
+        font-size: 1.1  rem;
+    }
+}

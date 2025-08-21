@@ -1,0 +1,42 @@
+import React from 'react'
+import "./About.css"
+import "./responsive/MainAboutMedia.css"
+const About = () => {
+
+  return (
+    <div id='About'>
+        <div id="About-Main">
+           <div id="About-Main-sCard">
+            <i class="fa-solid fa-trophy"></i>
+            <div id="About-Main-sRCard">
+                <h3>Yuqori sifatli</h3>
+                <p>yuqori sifatli undan tayyorlangan</p>
+            </div>
+           </div>
+           <div id="About-Main-sCard">
+           <i class="fa-solid fa-handshake"></i>
+            <div id="About-Main-sRCard">
+                <h3>Kafolat himoyasi</h3>
+                <p>1 yildan ortiq</p>
+            </div>
+           </div>
+           <div id="About-Main-sCard">
+           <i class="fa-solid fa-handshake"></i>
+            <div id="About-Main-sRCard">
+                <h3>Yetkazib berish bepul</h3>
+                <p>Barchasi sizning foydangizga</p>
+            </div>
+           </div>
+           <div id="About-Main-sCard">
+           <i class="fa-solid fa-headset"></i>
+            <div id="About-Main-sRCard">
+                <h3>24/7 qo'llab-quvvatlash</h3>
+                <p>Maxsus yordam</p>
+            </div>
+           </div>
+        </div>
+    </div>
+  )
+}
+
+export default About
