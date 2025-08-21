@@ -12,7 +12,7 @@
     #Footer .container #Footer-main
     {
         display: flex;
-        align-items: start;
+        align-items: flex-start;
         justify-content: space-between;
     }
     #Footer .container #Footer-main #Footer-sCard
@@ -89,7 +89,7 @@
     #Footer .container #Footer-main
     {
         display: flex;
-        align-items: start;
+        align-items: flex-start;
         justify-content: space-between;
     }
     #Footer .container #Footer-main #Footer-sCard
@@ -167,7 +167,7 @@
     #Footer .container #Footer-main
     {
         display: flex;
-        align-items: start;
+        align-items: flex-start ;
         justify-content: space-between;
     }
     #Footer .container #Footer-main #Footer-sCard
@@ -249,7 +249,7 @@
     #Footer .container #Footer-main
     {
         display: flex;
-        align-items: start;
+        align-items: flex-start;
         justify-content: space-between;
     }
     #Footer .container #Footer-main #Footer-sCard
